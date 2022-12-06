@@ -40,7 +40,7 @@ body {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background: var(--Red) url(/images/bg-intro-mobile.png) no-repeat
+  background: var(--Red) url(images/bg-intro-mobile.png) no-repeat
     center/contain;
 }
 .main-container {
