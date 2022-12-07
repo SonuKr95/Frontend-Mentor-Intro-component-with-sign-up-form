@@ -13,25 +13,25 @@ submitButton.addEventListener("click", () => {
   switch (firstName.value) {
     case "":
       fnerror_text.forEach((item) => {
-        item.classList.toggle("fn-hide");
+        item.classList.remove("fn-hide");
       });
   }
   switch (lastName.value) {
     case "":
       lnerror_text.forEach((item) => {
-        item.classList.toggle("ln-hide");
+        item.classList.remove("ln-hide");
       });
   }
   switch (emailValidate.test(emailAddress.value)) {
     case false:
       emerror_text.forEach((item) => {
-        item.classList.toggle("em-hide");
+        item.classList.remove("em-hide");
       });
   }
   switch (password.value) {
     case "":
       pserror_text.forEach((item) => {
-        item.classList.toggle("ps-hide");
+        item.classList.remove("ps-hide");
       });
   }
   // switch (lastName.value) {
